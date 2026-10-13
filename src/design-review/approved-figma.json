@@ -1,0 +1,17 @@
+{
+  "version": null,
+  "states": {
+    "default": { "radius": 4, "width": 200, "height": 48, "fill": "#23e172", "label": "Submit", "textColor": "#00204d", "fontFamily": "Acronis Cyber", "fontSize": 16, "fontWeight": 700, "lineHeight": 24, "layout": "No icon", "icon": "1:794", "focusRadius": 4, "focusWidth": 3, "focusColor": "#b3d1f7" },
+    "hover": { "radius": 4, "width": 200, "height": 48, "fill": "#18cd63", "label": "Submit", "textColor": "#00204d", "fontFamily": "Acronis Cyber", "fontSize": 16, "fontWeight": 700, "lineHeight": 24, "layout": "No icon", "icon": "1:794", "focusRadius": 4, "focusWidth": 3, "focusColor": "#b3d1f7" },
+    "active": { "radius": 4, "width": 200, "height": 48, "fill": "#16a34a", "label": "Submit", "textColor": "#00204d", "fontFamily": "Acronis Cyber", "fontSize": 16, "fontWeight": 700, "lineHeight": 24, "layout": "No icon", "icon": "1:794", "focusRadius": 4, "focusWidth": 3, "focusColor": "#b3d1f7" },
+    "loading": { "radius": 4, "width": 200, "height": 48, "fill": "#16a34a", "label": "In progress...", "textColor": "#00204d", "fontFamily": "Acronis Cyber", "fontSize": 16, "fontWeight": 700, "lineHeight": 24, "layout": "Only icon", "icon": "1:1040", "focusRadius": 4, "focusWidth": 3, "focusColor": "#b3d1f7" },
+    "success": { "radius": 4, "width": 200, "height": 48, "fill": "#16a34a", "label": "Done", "textColor": "#00204d", "fontFamily": "Acronis Cyber", "fontSize": 16, "fontWeight": 700, "lineHeight": 24, "layout": "Only icon", "icon": "1:1043", "focusRadius": 4, "focusWidth": 3, "focusColor": "#b3d1f7" }
+  },
+  "comments": {
+    "default": "Inactive",
+    "hover": "Hover\nWhile hovering",
+    "active": "Active\nWhile pressing",
+    "loading": "Loading\nWhile loading, animated icon",
+    "success": "Success\n500 ms, optional"
+  }
+}

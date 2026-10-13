@@ -1,0 +1,49 @@
+.cta-button {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 48px;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 4px;
+  background: #23e172;
+  color: #00204d;
+  /* Acronis Cyber is not supplied by the project yet. */
+  font-family: 'Acronis Cyber', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cta-button[data-status='idle']:hover:not(:disabled),
+.cta-button[data-status='idle'].cta-button--preview-hover:not(:disabled) {
+  background: #18cd63;
+}
+
+.cta-button[data-status='idle']:active:not(:disabled),
+.cta-button[data-status='idle'].cta-button--preview-active:not(:disabled),
+.cta-button[data-status='loading'],
+.cta-button[data-status='success'] {
+  background: #16a34a;
+}
+
+.cta-button:focus-visible {
+  outline: 3px solid #b3d1f7;
+  outline-offset: 0;
+}
+
+.cta-button__icon {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+/* Provisional: the Figma page has no disabled example. */
+.cta-button[data-status='idle']:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

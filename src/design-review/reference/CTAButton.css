@@ -1,0 +1,50 @@
+.review-reference-cta {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 48px;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 4px;
+  background: #23e172;
+  color: #00204d;
+  /* Acronis Cyber is not supplied by the project yet. */
+  font-family: 'Acronis Cyber', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.review-reference-cta[data-status='idle']:hover:not(:disabled),
+.review-reference-cta[data-status='idle'].review-preview-hover:not(:disabled) {
+  background: #18cd63;
+}
+
+.review-reference-cta[data-status='idle']:active:not(:disabled),
+.review-reference-cta[data-status='idle'].review-preview-active:not(:disabled),
+.review-reference-cta[data-status='loading'],
+.review-reference-cta[data-status='success'] {
+  background: #16a34a;
+}
+
+.review-reference-cta:focus-visible,
+.review-reference-cta.review-preview-focus {
+  outline: 3px solid #b3d1f7;
+  outline-offset: 0;
+}
+
+.review-reference-cta__icon {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+/* Provisional: the Figma page has no disabled example. */
+.review-reference-cta[data-status='idle']:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

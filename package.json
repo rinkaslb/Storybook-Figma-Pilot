@@ -1,0 +1,38 @@
+{
+  "name": "cta-pilot-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5174 --strictPort",
+    "build": "vue-tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6007 --host 127.0.0.1",
+    "build-storybook": "storybook build",
+    "test": "node --test tests/design-review-service.test.mjs && vitest run --project storybook"
+  },
+  "dependencies": {
+    "vue": "3.5.43"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "latest",
+    "@storybook/addon-a11y": "^10.6.0",
+    "@storybook/addon-designs": "^11.1.4",
+    "@storybook/addon-docs": "^10.6.0",
+    "@storybook/addon-mcp": "^10.6.0",
+    "@storybook/addon-vitest": "^10.6.0",
+    "@storybook/vue3-vite": "10.6.0",
+    "@types/node": "^24.13.3",
+    "@vitejs/plugin-vue": "6.0.9",
+    "@vitest/browser-playwright": "latest",
+    "@vitest/coverage-v8": "latest",
+    "oxlint": "^1.81.0",
+    "playwright": "latest",
+    "storybook": "^10.6.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vitest": "latest",
+    "vue-tsc": "3.3.11"
+  }
+}

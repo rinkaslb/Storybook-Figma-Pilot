@@ -1,0 +1,12 @@
+{
+  "source": "Figma MCP",
+  "figmaFileKey": "IYSxfcgqwTKKNzohmB69uT",
+  "figmaNodeId": "313:34148",
+  "documentationNodeId": "313:33806",
+  "baselineKind": "Initial pilot baseline, not a corporate approval",
+  "differences": {
+    "supported": [],
+    "pending": []
+  },
+  "note": "Current and Proposed were copied from the same initial implementation. Future MCP reviews update only Proposed until explicit approval."
+}

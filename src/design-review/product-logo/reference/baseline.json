@@ -1,0 +1,17 @@
+{
+  "kind": "pilot baseline, not a corporate approval",
+  "source": "Figma MCP",
+  "figmaFileKey": "WWq5FObYPf4mFjrsjBQ7X8",
+  "figmaNodeId": "112:6027",
+  "component": "Brand / Product title",
+  "variants": {
+    "size": ["XS", "S", "M", "L", "XL", "XXL"],
+    "layout": ["Stacked", "Inline"],
+    "theme": ["Light", "Dark"],
+    "edition": ["Off", "On"]
+  },
+  "constraints": ["XS is shown only in Stacked", "Edition label is shown only in Stacked"],
+  "text": { "productName": "Cyber Protect Cloud", "editionLabel": "Advanced", "font": "Acronis Cyber Light; Acronis Cyber Bold for edition" },
+  "assets": ["acronis-light.svg", "acronis-dark.svg"],
+  "fontAvailability": "Acronis Cyber is not installed in this project; browser fallback is temporary and visually inexact."
+}

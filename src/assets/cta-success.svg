@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Union boundaries" clip-path="url(#clip0_0_61)">
+<path id="Union" d="M14.2928 2.29297C14.6834 1.90244 15.3164 1.90244 15.7069 2.29297C16.0973 2.6835 16.0974 3.31653 15.7069 3.70703L5.70689 13.707C5.31639 14.0975 4.68336 14.0975 4.29283 13.707L0.292826 9.70703C-0.097698 9.31651 -0.097698 8.68349 0.292826 8.29297C0.683351 7.90244 1.31636 7.90244 1.70689 8.29297L4.99986 11.5859L14.2928 2.29297Z" fill="#00204D"/>
+</g>
+<defs>
+<clipPath id="clip0_0_61">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>

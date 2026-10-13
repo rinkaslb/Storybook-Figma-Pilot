@@ -1,0 +1,14 @@
+{
+  "kind": "initial pilot baseline, not a corporate approval",
+  "source": "Figma MCP",
+  "figmaFileKey": "IYSxfcgqwTKKNzohmB69uT",
+  "figmaNodeId": "313:34148",
+  "documentationNodeId": "313:33806",
+  "mainComponentNodeId": "308:30455",
+  "layout": "Metrics",
+  "breakpoints": [1440, 1280, 1024, 768, 360],
+  "themes": ["Light", "Dark"],
+  "badgeChoices": ["None", "Icon", "Number"],
+  "fontAvailability": "Acronis Cyber is absent from the project; the browser fallback is temporary and visually inexact.",
+  "motionSource": "Key Highlights / Documentation, section 05; the Metrics instance has no Figma keyframe timeline."
+}

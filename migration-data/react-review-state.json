@@ -1,0 +1,17 @@
+{
+  "phase": "manual-prepared",
+  "sourceHash": "9791591271b3039ade09dc8b2049afa39f9276bd75fb26457d7180900de7f1e7",
+  "proposalHash": "fbc657d3b42e7d5b65d46237d9bc78c61c8ee6b4bde942bb26684dc8653a9eb0",
+  "radius": 8,
+  "differences": {
+    "supported": [
+      "default: radius 4 → 8",
+      "hover: radius 4 → 8",
+      "active: radius 4 → 8",
+      "loading: radius 4 → 8",
+      "success: radius 4 → 8"
+    ],
+    "pending": []
+  },
+  "checkedAt": "2026-09-25T13:23:43.958Z"
+}

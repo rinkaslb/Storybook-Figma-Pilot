@@ -1,0 +1,16 @@
+{
+  "source": "Figma MCP",
+  "figmaUrl": "https://www.figma.com/design/NjTVThQ8addqzP29G9sRpO/Untitled?node-id=1-4584",
+  "checkedAt": "2026-09-29T09:34:39Z",
+  "figmaRadius": 16,
+  "differences": {
+    "supported": [
+      "default: radius 4 → 16",
+      "hover: radius 4 → 16",
+      "active: radius 4 → 16",
+      "loading: radius 4 → 16",
+      "success: radius 4 → 16"
+    ],
+    "pending": []
+  }
+}

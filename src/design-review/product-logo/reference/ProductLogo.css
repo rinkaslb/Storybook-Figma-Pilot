@@ -1,0 +1,33 @@
+.review-current-logo {
+  --logo-width: 118.5px;
+  --logo-height: 24px;
+  --name-size: 34px;
+  --name-tracking: -0.45px;
+  --edition-size: 12px;
+  --outer-gap: 8px;
+  --edition-gap: 17px;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: var(--outer-gap);
+  color: #00204d;
+  font-style: normal;
+  max-width: 100%;
+}
+
+.review-current-logo--dark { color: #fff; }
+.review-current-logo--xs { --logo-width: 84px; --logo-height: 17px; --name-size: 24px; --name-tracking: -0.3px; --edition-size: 8.5px; --outer-gap: 8px; --edition-gap: 8px; }
+.review-current-logo--m { --logo-width: 158px; --logo-height: 32px; --name-size: 45px; --name-tracking: -0.15px; --edition-size: 16px; --outer-gap: 14px; --edition-gap: 23px; }
+.review-current-logo--l { --logo-width: 217.25px; --logo-height: 44px; --name-size: 61px; --name-tracking: -0.3px; --edition-size: 22px; --outer-gap: 16px; --edition-gap: 29px; }
+.review-current-logo--xl { --logo-width: 276px; --logo-height: 56px; --name-size: 78px; --name-tracking: -0.35px; --edition-size: 28px; --outer-gap: 24px; --edition-gap: 34px; }
+.review-current-logo--xxl { --logo-width: 444px; --logo-height: 90px; --name-size: 127px; --name-tracking: 0; --edition-size: 45px; --outer-gap: 42px; --edition-gap: 54px; }
+.review-current-logo--stacked { flex-direction: column; }
+.review-current-logo--inline { align-items: center; }
+.review-current-logo--inline.review-current-logo--s { --outer-gap: 8px; }
+.review-current-logo--inline.review-current-logo--m { --outer-gap: 12px; }
+.review-current-logo--inline.review-current-logo--l { --outer-gap: 18px; }
+.review-current-logo--inline.review-current-logo--xl { --outer-gap: 21px; }
+.review-current-logo--inline.review-current-logo--xxl { --outer-gap: 33px; }
+.review-current-logo__mark { display: block; width: var(--logo-width); height: var(--logo-height); flex: none; }
+.review-current-logo__content { display: flex; flex-direction: column; align-items: flex-start; gap: var(--edition-gap); min-width: 0; }
+.review-current-logo__name { font-family: 'Acronis Cyber', 'Helvetica Neue', Arial, sans-serif; font-weight: 300; font-size: var(--name-size); line-height: 1; letter-spacing: var(--name-tracking); overflow-wrap: anywhere; }
+.review-current-logo__edition { font-family: 'Acronis Cyber', 'Helvetica Neue', Arial, sans-serif; font-weight: 700; font-size: var(--edition-size); line-height: 1; }
